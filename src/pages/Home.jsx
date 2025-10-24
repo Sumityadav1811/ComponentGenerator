@@ -113,10 +113,10 @@ Requirements:
         {/* Left Section */}
         <div className="w-full py-6 rounded-xl bg-[#141319] mt-5 p-5">
           <h3 className="text-[25px] font-semibold sp-text">
-            AI Component Generator
+            Say it. We’ll code it.
           </h3>
           <p className="text-gray-400 mt-2 text-[16px]">
-            Describe your component and let AI code it for you.
+            Describe your UI component, and let AI generate the code instantly
           </p>
 
           <p className="text-[15px] font-[700] mt-4">Framework</p>
