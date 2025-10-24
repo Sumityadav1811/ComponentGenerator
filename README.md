@@ -1,6 +1,6 @@
-# CompGenerator — UI Component Generator (AI-powered)
+# CodeMait — UI Component Generator (AI-powered)
 
-CompGenerator is a lightweight AI-assisted UI component generator that scaffolds reusable components for web projects. It supports multiple frameworks, configurable styling options, and generates TypeScript-friendly code and tests to speed up development.
+CodeMait is a lightweight AI-assisted UI component generator that scaffolds reusable components for web projects. It supports multiple frameworks, configurable styling options, and generates TypeScript-friendly code and tests to speed up development.
 
 Core ideas
 
@@ -42,33 +42,6 @@ CLI usage (examples)
 - Generate a basic HTML component:
   npx compgenerator generate Banner --framework html --styles css
 
-Common flags
-
-- --framework <react|vue|html> (default: react)
-- --styles <css|scss|css-modules|styled> (default: css)
-- --ts Generate TypeScript files
-- --storybook Include a Storybook story
-- --dest <path> Output directory
-- --props "label:string, onClick:function" Define props quickly
-
-Configuration file
-You can create a config file (compgen.config.json) to set defaults:
-{
-"framework": "react",
-"styles": "css-modules",
-"ts": true,
-"storybook": true,
-"outputDir": "src/components"
-}
-
-Example output structure (React, TypeScript, CSS Modules)
-
-- src/components/Button/
-  - Button.tsx
-  - Button.module.css
-  - Button.test.tsx
-  - Button.stories.tsx
-  - index.ts
 
 How it helps
 
@@ -87,9 +60,6 @@ Contributing
 - Open issues for bugs or feature requests.
 - Follow repo conventions and add tests for new templates or features.
 - Pull requests should include a brief description and relevant unit tests.
-
-License
-MIT — see LICENSE file.
 
 Contact
 For questions or help, open an issue in this repository.
